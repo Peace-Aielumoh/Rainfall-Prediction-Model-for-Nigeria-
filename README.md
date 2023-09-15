@@ -26,6 +26,17 @@ The primary goal of this project is to develop a machine learning model for rain
 - You need to load your time series data into the appropriate variables (`trainX`, `trainY`, `valX`, `valY`). Ensure that your data is properly preprocessed and split into training and validation sets.
 
 ## Model Architecture
+
+## Models
+
+### Linear Regression
+
+Linear Regression is a straightforward statistical method used for predicting a target variable based on one or more independent variables. In this project, Linear Regression is employed to predict rainfall levels based on various meteorological features and satellite remote sensing data.
+
+### LSTM (Long Short-Term Memory) Networks
+
+LSTM networks are a type of recurrent neural network (RNN) known for their ability to model sequential data effectively. They are employed here for time series prediction of rainfall, incorporating satellite remote sensing information for improved accuracy.
+
 - The project utilizes LSTM layers to model the temporal patterns in the data.
 - Three LSTM layers with dropout are stacked to capture complex dependencies.
 - The output layer is a Dense layer.
