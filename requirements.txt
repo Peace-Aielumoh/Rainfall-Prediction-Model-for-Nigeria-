@@ -1,0 +1,11 @@
+numpy==1.21.0               # Library for numerical operations
+pandas==1.3.0              # Data manipulation and analysis
+scikit-learn==0.24.2       # Machine learning tools
+tensorflow==2.6.0          # Deep learning framework
+matplotlib==3.4.3          # Data visualization
+seaborn==0.11.2            # Data visualization
+holidays==0.11.1           # Handling holidays
+scipy==1.7.0               # Scientific computing
+xarray==0.18.2             # Data manipulation for multidimensional arrays
+netCDF4==1.5.7             # Reading and writing NetCDF files
+
