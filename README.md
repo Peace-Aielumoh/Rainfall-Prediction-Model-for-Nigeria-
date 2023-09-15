@@ -54,7 +54,7 @@ LSTM networks are a type of recurrent neural network (RNN) known for their abili
 ## Usage
 To run the provided code and train your rainfall prediction model:
 
-1. Ensure you have the required dependencies installed by running:
+1. Ensure you have the required dependencies installed by running: requirements.txt
    `pip install -r requirements.txt`
 
 2. Load your time series data into the script (`trainX`, `trainY`, `valX`, `valY`).
