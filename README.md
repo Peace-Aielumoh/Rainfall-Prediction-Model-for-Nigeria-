@@ -20,7 +20,7 @@ The primary goal of this project is to develop a machine learning model for rain
 - `data/`: https://drive.google.com/file/d/1nyvwftb5O54ZEJEGCOg590zR4E1Xt9Lf/view?usp=drive_link
 - `model/`: Placeholder for saving the trained model.
 - `rainfall_prediction.py`: Python script containing the code for data preparation, model creation, training, and evaluation.
-- `requirements.txt`: 
+- `requirements.txt`: requirements.txt
 
 ## Data Preparation
 - You need to load your time series data into the appropriate variables (`trainX`, `trainY`, `valX`, `valY`). Ensure that your data is properly preprocessed and split into training and validation sets.
